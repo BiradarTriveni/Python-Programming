@@ -1,0 +1,24 @@
+class laptop:
+    def __init__(self):
+        self.brand="HP"
+        self.color="silver"
+    def store(self):
+        print("stores the data")
+        print(self.color)
+        print(self)
+
+l1=laptop()
+print(l1.brand)
+print(l1.color)
+l1.store()
+print(l1)
+
+# Output:
+# HP
+# silver
+# stores the data
+# silver
+# <__main__.laptop object at 0x...>
+# <__main__.laptop object at 0x...>
+
+#self = l1 itself. So print(self) and print(l1) both give same address.
