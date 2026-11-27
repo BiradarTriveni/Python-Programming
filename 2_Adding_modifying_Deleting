@@ -1,0 +1,41 @@
+class cricketer:
+    def _init_(self):
+        self.name="Virat"
+        self.team="RCB"
+        self.runs=12000
+        self.matches=200
+    def bat(self):
+        print("Cricketer is batting")
+    def bowl(self):
+        print("Cricketer is bowling")
+
+c1=cricketer()
+print(c1.name)
+print(c1.team)
+print(c1.runs)
+print(c1.matches)
+c1.bat()
+c1.bowl()
+
+# 1. Adding
+c1.age=34 #adding
+print(c1.age)
+
+# 2. Modifying
+c1.name="chiku" #modifying
+print(c1.name)
+
+# 3. Deleting
+del c1.matches #deleting
+print(c1.team)
+
+# Output:
+# Virat
+# RCB
+# 12000
+# 200
+# Cricketer is batting
+# Cricketer is bowling
+# 34
+# chiku
+#RCB
