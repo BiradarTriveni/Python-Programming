@@ -1,0 +1,21 @@
+student=int(input("enter student marks"))
+if student>0 and student<=30:
+    print("student marks are poor")
+elif student>30 and student<=60:
+    print("student marks are good")
+elif student>60 and student<=100:
+    print("student marks are excellent")
+else:
+    print("student marks are not eligible for next semester")
+  
+# enter student marks 25
+# student marks are poor
+  
+# enter student marks 55
+# student marks are good
+
+# Output if you enter 90:
+# student marks are excellent
+
+# Output if you enter 101:
+# student marks are not eligible for next semester
